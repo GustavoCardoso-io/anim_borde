@@ -1,0 +1,76 @@
+.circulo-contorno {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+.texto-ds {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.back {
+    background-color: #1d1c1c;
+}
+
+.circulo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 2.5px;
+    background-clip: content-box;
+    animation: spin 10s linear infinite;
+}
+
+.icons-aling {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icone {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.circulo-contorno:active .circulo {
+    animation: spin 1s linear infinite;
+}
+
+.boot {
+    background-color: #2d0541;
+    border: 2.5px dashed #9932CC;
+}
+
+.disc {
+    background-color: #340688;
+    border: 2.5px dashed #3c0757;
+}
+
+.github {
+    background-color: #000000;
+    border: 2.5px dashed #000000;
+}
+
+.linkdIn {
+    background-color: #28287e;
+    border: 2.5px dashed #28287e;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
