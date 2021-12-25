@@ -48,24 +48,49 @@
     animation: spin 1s linear infinite;
 }
 
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 10px #dd2a2a,
+      0 0 10px #dd2a2a;
+  }
+  
 .boot {
-    background-color: #2d0541;
-    border: 2.5px dashed #9932CC;
+    background-color: #220431;
+    border: 2.5px dashed #220431;
+    box-shadow:       
+    0 0 20px #220431,
+    0 0 20px #220431;
 }
+
+h1, h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+
 
 .disc {
     background-color: #340688;
-    border: 2.5px dashed #3c0757;
+    border: 2.5px dashed #340688;
+    box-shadow:       
+    0 0 20px #340688,
+    0 0 20px #340688;
 }
 
 .github {
     background-color: #000000;
     border: 2.5px dashed #000000;
+    box-shadow:       
+    0 0 20px #000000,
+    0 0 20px #000000;
 }
-
 .linkdIn {
     background-color: #28287e;
     border: 2.5px dashed #28287e;
+    box-shadow:       
+    0 0 20px #28287e,
+    0 0 20px #28287e;
 }
 
 @keyframes spin {
