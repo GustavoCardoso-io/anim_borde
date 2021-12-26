@@ -9,4 +9,4 @@ Uma simples pagina em HTML e CSS para testar as habilidades com as ferramentas!
 
 </b>
 
-Como vemos na imagem a cima, as  bordas contatendo uma animação em esperial animação em espiral.
+Como vemos na imagem a cima, as  bordas tem uma animação em esperial simples.
